@@ -12,4 +12,6 @@ public class RewardsRequest {
 	private String requestId;
 	
 	private String messageTS;
+	
+	private String qwerty;
 }
