@@ -1,4 +1,10 @@
+package com.sreenutech.rewards.dto;
+
+import lombok.Data;
+
+@Data
 public class RewardsTestRequest{
-  private Stirng rewardsName;
+  private String rewardsName;
   private String description;
+  private int amount;
 }

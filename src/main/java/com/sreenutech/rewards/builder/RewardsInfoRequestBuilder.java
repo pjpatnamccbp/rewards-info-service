@@ -33,5 +33,17 @@ public class RewardsInfoRequestBuilder {
 		
 		return rewardsDaoRequest;
 	}
+	
+	/*
+	 * public RewardsDaoRequest buildDaoRequest(RewardsRequest rewardsRequest) { //
+	 * TODO Auto-generated method stub
+	 * 
+	 * RewardsDaoRequest rewardsDaoRequest = new RewardsDaoRequest();
+	 * 
+	 * rewardsDaoRequest.setCardNum(rewardsRequest.getCardNum());
+	 * rewardsDaoRequest.setClientId(rewardsRequest.getClientId());
+	 * 
+	 * return rewardsDaoRequest; }
+	 */
 
 }
