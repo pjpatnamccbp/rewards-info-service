@@ -10,7 +10,7 @@ public class RewardsInfoRequestValidator {
 
 	public void validateRequest(RewardsRequest rewardsRequest) throws RewardsInfoRequestInvalidException {
 		
-		if( rewardsRequest.getCardNum() == null || " ".equals(rewardsRequest.getCardNum()) || rewardsRequest.getCardNum().length() < 16 ) {
+		if( rewardsRequest.getCardNum() == null || " ".equals(rewardsRequest.getCardNum()) || rewardsRequest.getCardNum().length() < 16 ||" ".equals(rewardsRequest.getCardNum()) ) {
 			throw new RewardsInfoRequestInvalidException("rwds001", "card number invalid");
 		}
 		

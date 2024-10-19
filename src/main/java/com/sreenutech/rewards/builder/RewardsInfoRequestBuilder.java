@@ -13,6 +13,7 @@ public class RewardsInfoRequestBuilder {
 		// TODO Auto-generated method stub
 		
 		CardServiceClientRequest cardServiceClientRequest = new CardServiceClientRequest();
+		//" ".equals(rewardsRequest.getCardNum())
 		
 		cardServiceClientRequest.setCardnum(rewardsRequest.getCardNum());
 		cardServiceClientRequest.setRequestId(rewardsRequest.getRequestId());
