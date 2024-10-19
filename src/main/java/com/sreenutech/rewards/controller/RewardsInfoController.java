@@ -34,6 +34,7 @@ public class RewardsInfoController {
 		RewardsRequest rewardsRequest = new RewardsRequest(); 
 		
 		rewardsRequest.setCardNum(cardnum);
+		//" ".equals(rewardsRequest.getCardNum())
 		rewardsRequest.setClientId(clientId);
 		rewardsRequest.setRequestId(requestId);
 		rewardsRequest.setMessageTS(messageTS);
